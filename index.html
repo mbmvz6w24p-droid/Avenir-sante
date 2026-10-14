@@ -21,5 +21,20 @@
 
 <body>
   <h1>Bienvenue sur Avenir Santé</h1>
+  
+<script>
+  if ("serviceWorker" in navigator) {
+    window.addEventListener("load", () => {
+      navigator.serviceWorker.register("./sw.js")
+        .then(() => {
+          console.log("Avenir Santé : application prête");
+        })
+        .catch(error => {
+          console.error("Erreur :", error);
+        });
+    });
+  }
+</script>
+
 </body>
 </html>
