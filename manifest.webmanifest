@@ -1,0 +1,23 @@
+
+{
+  "name": "Avenir Santé",
+  "short_name": "Avenir Santé",
+  "description": "Application de révision et de QCM pour les étudiants en santé",
+  "start_url": "/Avenir-sante/",
+  "scope": "/Avenir-sante/",
+  "display": "standalone",
+  "background_color": "#0B1026",
+  "theme_color": "#0B1026",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
